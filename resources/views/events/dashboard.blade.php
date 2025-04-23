@@ -20,7 +20,7 @@
                 </thead>
                 <tbody>
                     @foreach($events as $event)
-                        <tr>
+                        <tr class="tr-my-events">
                             <td scope="row">{{ $loop->index + 1 }}</td>
                             <td><a href="/events/{{ $event->id }}">{{ $event->title }}</a></td>
                             <td style="position: relative;">
@@ -65,7 +65,7 @@
                 </thead>
                 <tbody>
                     @foreach($eventsasparticipant as $event)
-                        <tr>
+                        <tr class="tr-my-events">
                             <td scope="row">{{ $loop->index + 1 }}</td>
                             <td><a href="/events/{{ $event->id }}">{{ $event->title }}</a></td>
                             <td>{{count($event->users)}}</td>
@@ -75,7 +75,7 @@
                                     @method('DELETE')
 
                                     <button type="submit" class="btn btn-danger delete-btn">
-                                    <i class="icon ion-trash-outline"></i> Sair do Evento
+                                    <i class="icon ion-trash-outline"></i> Sair
                                     </button>
                                 </form>
                             </td>

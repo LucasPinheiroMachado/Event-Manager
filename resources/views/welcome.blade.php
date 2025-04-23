@@ -23,7 +23,7 @@
     </div>
     <div id="cards-container" class="row justify-content-start">
         @foreach($events as $event)
-            <div class="col-md-3 col-sm-6 col-12 d-flex">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex">
                 <div class="card">
                     <img src="/img/events/{{ $event->image }}" alt="{{ $event->title }}">
                     <div class="card-body">
