@@ -1,4 +1,4 @@
-# Event Manager
+# Controlador de Eventos
 
 ## Descrição
 
