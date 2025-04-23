@@ -25,7 +25,7 @@ Este é um projeto desenvolvido em **Laravel**, onde os usuários podem:
 - **MySQL**: Banco de dados relacional utilizado para armazenar os dados dos usuários e eventos.
 - **Bootstrap**: Framework CSS para um design simples e responsivo.
 - **Jetstream**: Pacote Laravel para autenticação de usuários (login, registro, etc.).
-- **Node.js**: Necessário para rodar os pacotes JavaScript e compilar as assets com **npm** (por exemplo, para o Vue.js usado no Jetstream).
+- **Node.js**: Necessário para rodar os pacotes JavaScript e compilar as assets com **npm**.
 
 ## Pré-requisitos
 
